@@ -1,0 +1,13 @@
+#
+---
+include: package:effective_dart/analysis_options.yaml
+
+    
+analyzer:
+  errors:
+    todo: ignore
+  
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+    
